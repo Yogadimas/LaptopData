@@ -94,6 +94,14 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="https://www.youtube.com/channel/UCjEmfTujPHOokSZMEG7kFng" target="_blank" class="nav-link">
+                        <i class="fa-brands fa-youtube"></i>
+                        <p>
+                            Youtube
+                        </p>
+                    </a>
+                </li>
 
 
 
