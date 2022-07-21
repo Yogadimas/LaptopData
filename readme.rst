@@ -1,4 +1,13 @@
 ###################
+LAPTOPDATA
+###################
+Project UAS Aplikasi Pemrograman Web
+- CRUD
+- Upload, Edit, Delete Gambar
+- CodeIgniter 3
+
+
+###################
 What is CodeIgniter
 ###################
 
