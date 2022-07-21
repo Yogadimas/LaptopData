@@ -4,12 +4,12 @@
             <div class="row mb-2">
                 <div class="col-sm-6">
 
-                    <img src="<?= base_url(); ?>assets/dist/img/logo_acer.svg" alt="acer logo" width="200">
+                    <img src="<?= base_url(); ?>assets/dist/img/logo_asus.svg" alt="asus logo" width="200">
 
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">ACER</a></li>
+                        <li class="breadcrumb-item"><a href="#">ASUS</a></li>
                         <li class="breadcrumb-item active">Laptop Data</li>
                     </ol>
                 </div><!-- /.col -->
@@ -31,7 +31,7 @@
         </button>
         <div class="table-responsive">
             <table class="table table-striped" id="this-table">
-                <tr style="background-color: #84B819; color: white;">
+                <tr style="background-color: #00539B; color: white;">
                     <th>NO</th>
                     <th>PICTURE</th>
                     <th>TITLE</th>
@@ -44,23 +44,23 @@
 
                     <tr>
                         <th scope="row"><?= $i; ?></th>
-                        <td><img src="<?= base_url('assets/img/acer/') . $laptop['picture']; ?>" alt="<?= $laptop['picture']; ?>" width="100"></td>
+                        <td><img src="<?= base_url('assets/img/asus/') . $laptop['picture']; ?>" alt="<?= $laptop['picture']; ?>" width="100"></td>
                         <td id="title"><?= $laptop['title']; ?></td>
                         <td><?= $laptop['price']; ?></td>
                         <td><?= $laptop['cpu']; ?></td>
-                        <td><a href="<?= base_url('Acer/detail/') . $laptop['id']; ?>">
+                        <td><a href="<?= base_url('Asus/detail/') . $laptop['id']; ?>">
                                 <div class="btn btn-success btn-sm">
                                     <i class="fa fa-eye"></i>
                                 </div>
                         </td>
                         <td>
-                            <a href="<?= base_url('Acer/edit/') . $laptop['id']; ?>">
+                            <a href="<?= base_url('Asus/edit/') . $laptop['id']; ?>">
                                 <div class="btn btn-primary btn-sm">
                                     <i class="fa fa-pencil-alt"></i>
                                 </div>
                         </td>
                         <td>
-                            <a class="btn-delete" href="<?= base_url('Acer/delete/') . $laptop['id']; ?>">
+                            <a class="btn-delete" href="<?= base_url('Asus/delete/') . $laptop['id']; ?>">
                                 <div class="btn btn-danger btn-sm">
                                     <i class="fa fa-trash-alt"></i>
                                 </div>
@@ -86,11 +86,11 @@
                     </div>
                     <div class="modal-body">
 
-                        <form action="<?= base_url('Acer/add') ?>" method="post" enctype="multipart/form-data" autocomplete="off">
+                        <form action="<?= base_url('Asus/add') ?>" method="post" enctype="multipart/form-data" autocomplete="off">
 
                             <div class="form-group">
                                 <label>Brand</label>
-                                <input type="text" name="merk" class="form-control" readonly value="Acer">
+                                <input type="text" name="merk" class="form-control" readonly value="Asus">
                             </div>
                             <div class="form-group">
                                 <label>Title</label>
@@ -139,7 +139,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-2">
-                                        <img src="<?= base_url('assets/img/acer/default_acer.jpg') ?>" class="img-thumbnail img-preview">
+                                        <img src="<?= base_url('assets/img/asus/default_asus.jpg') ?>" class="img-thumbnail img-preview">
                                     </div>
                                     <div class="col-sm-8 mt-2">
                                         <div class="custom-file">
@@ -152,6 +152,7 @@
                             </div>
 
                             <div id="alert-msg"></div>
+
 
                             <button type="reset" class="btn btn-danger mt-2 mr-2">Reset</button>
                             <button type="submit" class="btn btn-primary mt-2 px-5">
