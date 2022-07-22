@@ -22,6 +22,9 @@
                 <input type="hidden" name="id" class="form-control" value="<?= $laptops['id']; ?>">
             </div>
             <div class="form-group">
+                <input type="hidden" name="merk" class="form-control" value="<?= $laptops['merk']; ?>" readonly>
+            </div>
+            <div class="form-group">
                 <label>Title</label>
                 <input type="text" name="title" class="form-control" value="<?= $laptops['title']; ?>">
                 <small class="form-text text-danger"><?= form_error('title'); ?></small>

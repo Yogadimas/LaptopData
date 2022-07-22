@@ -74,6 +74,9 @@
                     <div class="col-sm-3">
                         <img src="<?= base_url('assets/img/asus/') . $laptops['picture']; ?>" class="img-thumbnail img-preview">
                     </div>
+                    <div class="form-group">
+                        <input type="hidden" name="merk" class="form-control" value="<?= $laptops['merk']; ?>" readonly>
+                    </div>
                     <div class="col-sm-9 mt-2">
                         <div class="custom-file">
                             <input type="file" class="custom-file-input " id="picture" name="picture" onchange="previewImg()">
